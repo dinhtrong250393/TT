@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #f9fafb;
+}
+
+/* Fallback content styles for parsed exams */
+.fallback-content {
+  line-height: 1.6;
+}
+.fallback-content p {
+  margin-bottom: 1rem;
+}
+.fallback-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
+.fallback-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+.fallback-content th, .fallback-content td {
+  border: 1px solid #e5e7eb;
+  padding: 0.5rem;
+}
